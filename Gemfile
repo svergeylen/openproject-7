@@ -290,3 +290,14 @@ gemfiles.each do |file|
   next unless File.readable?(file)
   eval_gemfile(file)
 end
+
+
+
+
+
+# Stéphane TeamAgora
+gem 'theme-teamagora', :git => 'https://github.com/svergeylen/theme-teamagora.git', :branch => 'master'
+
+
+
+
