@@ -296,7 +296,7 @@ end
 
 
 # Stéphane TeamAgora
-gem 'theme-teamagora', :git => 'https://github.com/svergeylen/theme-teamagora.git', :branch => 'master'
+gem 'openproject-themes-teamagora', :git => 'https://github.com/svergeylen/theme-teamagora.git', :branch => 'master'
 
 
 

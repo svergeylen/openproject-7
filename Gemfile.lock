@@ -95,6 +95,14 @@ GIT
       activesupport (>= 3.0)
       rspec-mocks (>= 2.99, < 4.0)
 
+GIT
+  remote: https://github.com/svergeylen/theme-teamagora.git
+  revision: a35622fd77a3df827eea2a0162ba809f6542b3e0
+  branch: master
+  specs:
+    openproject-themes-teamagora (1.0.0)
+      rails (~> 5.0)
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -675,6 +683,7 @@ DEPENDENCIES
   oj (~> 3.2.0)
   okcomputer (~> 1.16.0)
   omniauth!
+  openproject-themes-teamagora!
   openproject-token (~> 1.0.0)
   openproject-translations!
   parallel_tests (~> 2.14.0)
