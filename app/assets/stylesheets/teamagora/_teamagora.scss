@@ -1,0 +1,31 @@
+
+// Hide "Openproject" title on homescreen
+.widget-boxes--screen-header h2 {
+	display:none;
+}
+
+// Hide top right menu (help icon)
+ul#account-nav-right li.drop-down a.menu-item--help  {
+	display: none;
+}
+
+// Hide big icons linking to community, docs, help at welcome screen
+div#main div#content section.homescreen--links {
+	display : none;
+}
+
+// Hide "POwered by Openproject" in the footer
+div#footer div.footer-content {
+	display : none;
+}
+
+// Hide big widget on welcome screen linking to documentation, adminsitration, community links, etc.
+// There is no unique selector to identify the widgets, so nth-child allows to select the 4th, 5th and 6th blocks :-/
+
+div#content section.widget-boxes div.widget-box:nth-child(4), 
+div#content section.widget-boxes div.widget-box:nth-child(5),
+div#content section.widget-boxes div.widget-box:nth-child(6)  {
+	display : none;
+}
+
+
