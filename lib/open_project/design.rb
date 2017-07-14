@@ -30,7 +30,7 @@
 module OpenProject
   class Design
     DEFAULTS = {
-      'primary-color'                                        => "#3493B3",
+      'primary-color'                                        => "#3493B3",  
       'primary-color-dark'                                   => "#06799F",
       'alternative-color'                                    => "#35C53F",
       'body-font-family'                                     => "'Lato', 'Lucida Grande', Helvetica, Arial, sans-serif",
@@ -59,7 +59,7 @@ module OpenProject
       'header-height'                                        => "55px",
       'header-height-mobile'                                 => "45px",
       'header-bg-color'                                      => "$primary-color",
-      'header-home-link-bg'                                  => '#{image-url("logo_openproject_white_big.png") no-repeat 20px 0}',
+      'header-home-link-bg'                                  => '#{image-url("logo_teamagora.png") no-repeat 20px 0}',  # logo_openproject_white_big.png
       'header-border-bottom-color'                           => "$primary-color",
       'header-border-bottom-width'                           => "0",
       'header-item-font-size'                                => "14px",
