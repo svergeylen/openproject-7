@@ -1,0 +1,5 @@
+
+
+gem 'openproject-documents', git: 'https://github.com/opf/openproject-documents.git', branch: 'stable/7'
+
+gem 'openprojct-meeting', git: 'https://github.com/finnlabs/openproject-meeting.git', branch: 'stable/7'
