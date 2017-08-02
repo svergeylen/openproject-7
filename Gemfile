@@ -287,12 +287,3 @@ gemfiles.each do |file|
 end
 
 
-
-
-
-# Stéphane TeamAgora
-gem 'openproject-themes-teamagora', :git => 'https://github.com/svergeylen/theme-teamagora.git', :branch => 'master'
-
-
-
-

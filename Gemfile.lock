@@ -17,6 +17,15 @@ GIT
       json (~> 1.8)
 
 GIT
+  remote: https://github.com/finnlabs/openproject-meeting.git
+  revision: fa44665eba7955c2a945c22100dc049358cfcaed
+  branch: stable/7
+  specs:
+    openproject-meeting (7.1.0)
+      icalendar (~> 2.3.0)
+      rails (~> 5.0.0)
+
+GIT
   remote: https://github.com/finnlabs/rspec-example_disabler.git
   revision: deb9c38e3f4e3688724583ac1ff58e1ae8aba409
   specs:
@@ -57,6 +66,14 @@ GIT
     omniauth (1.6.1)
       hashie (>= 3.4.6, < 3.6.0)
       rack (>= 1.6.2, < 3)
+
+GIT
+  remote: https://github.com/opf/openproject-documents.git
+  revision: 82379b7c4a80e5cd38dd26c13d1a60df53585cb8
+  branch: stable/7
+  specs:
+    openproject-documents (7.1.0)
+      rails (~> 5.0.0)
 
 GIT
   remote: https://github.com/opf/openproject-translations.git
@@ -329,6 +346,7 @@ GEM
     i18n (0.8.6)
     i18n-js (3.0.0)
       i18n (~> 0.6, >= 0.6.6)
+    icalendar (2.3.0)
     ice_nine (0.11.2)
     interception (0.5)
     ipaddress (0.8.3)
@@ -670,6 +688,8 @@ DEPENDENCIES
   oj (~> 3.3.2)
   okcomputer (~> 1.16.0)
   omniauth!
+  openproject-documents!
+  openproject-meeting!
   openproject-themes-teamagora!
   openproject-token (~> 1.0.1)
   openproject-translations!

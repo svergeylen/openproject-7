@@ -1,0 +1,13 @@
+
+
+
+# Stéphane TeamAgora
+gem 'openproject-themes-teamagora', :git => 'https://github.com/svergeylen/theme-teamagora.git', :branch => 'master'
+
+
+# Meetings
+gem "openproject-meeting", :git => "https://github.com/finnlabs/openproject-meeting.git", :branch => "stable/7"
+
+# Documents
+gem 'openproject-documents', git: 'https://github.com/opf/openproject-documents.git', branch: 'stable/7'
+
