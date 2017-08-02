@@ -1,9 +1,9 @@
 
 
+<<<<<<< HEAD
 
 # Stéphane TeamAgora
 gem 'openproject-themes-teamagora', :git => 'https://github.com/svergeylen/theme-teamagora.git', :branch => 'master'
-
 
 # Meetings
 gem "openproject-meeting", :git => "https://github.com/finnlabs/openproject-meeting.git", :branch => "stable/7"
